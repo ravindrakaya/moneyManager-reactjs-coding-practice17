@@ -1,0 +1,89 @@
+/* Write your CSS here */
+.icon-img {
+  height: 50px;
+  width: 50px;
+}
+.text-container {
+  margin-right: 20px;
+}
+.card-para1 {
+  color: #7e858e;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 800;
+}
+.card-para2 {
+  margin-top: 0px;
+  color: #7e858e;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.balance-container {
+  margin-left: 0px;
+  background-color: #ecfccb;
+  border: 2px solid #84cc16;
+  border-radius: 10px;
+  height: 100px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.income-container {
+  margin-left: 0px;
+  background-color: #cffafe;
+  border: 2px solid #06b6d4;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.expenses-container {
+  margin-left: 0px;
+  background-color: #cffafe;
+  border: 2px solid #06b6d4;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+  .balance-container {
+    height: 100px;
+    width: 300px;
+  }
+  .income-container {
+    height: 100px;
+    width: 300px;
+  }
+  .expenses-container {
+    height: 100px;
+    width: 300px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .balance-container {
+    height: 80px;
+    width: 180px;
+    margin-right: 20px;
+  }
+  .income-container {
+    height: 80px;
+    width: 180px;
+    margin-right: 20px;
+  }
+  .expenses-container {
+    height: 80px;
+    width: 180px;
+    margin-right: 20px;
+  }
+}

@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.list-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.delete-icon {
+  height: 30px;
+  width: 30px;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
